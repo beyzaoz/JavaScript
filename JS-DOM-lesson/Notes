@@ -1,0 +1,46 @@
+---DOM manipulation in JavaScript refers to the process of interacting with the 
+Document Object Model (DOM) of an HTML document.DOM manipulation with JavaScript 
+is commonly used in web development to create dynamic and interactive user interfaces.
+
+
+--You can change the text, HTML, or attributes of elements based on user actions or other events.
+--You can respond to user interactions, such as clicks, keypresses, and form submissions, by dynamically updating the DOM.
+--Creating and Deleting Elements.
+--Styling Changes.
+--You can use DOM manipulation in conjunction with AJAX (Asynchronous JavaScript and XML) to fetch and display data from a server without requiring a full page reload
+--You can create animations.
+--Managing events and their associated actions is a key aspect of DOM manipulation.
+--You can use DOM manipulation to validate form inputs and provide feedback to users without submitting the form.
+
+
+Document object model: htmll ile css arasindaki bir arayuz.
+Elementlere nesne olarak ulasabiliyoruz(DOM)
+
+5 MAIN METHODS:
+Document.GetElementById();
+Document.GetElementByClassName();
+Document.GetElementByTagName();
+Document.querySelector();
+document.getSelectorAll();
+
+
+SELECT ISLEMI:
+
+ex:
+var tag = document.GetElementById();
+var tagg = document.querySelector(`p`); //burda p tagi secilmis oldu.
+
+MANIPULATE ISLEMI:
+
+ex:
+tag.style.colo = `blue`
+tagg.textcontent // icerisini donduruyorum. textler icin!!
+link.getAttribute(`href`); //icerigi degistirmek istersek  link.setAttribute(`href`,`www.abcd.com`)
+
+
+
+
+
+
+
+

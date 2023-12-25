@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.game{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid grey;
+    margin-top: 170px;
+    
+    
+}
+
+#dinosour{
+    width: 130px;
+    height: 60px;
+    background-image: url(dinosour.png);
+    background-size:120px 90px;
+    position: relative;
+    top: 130px;
+
+}
+
+.jump{
+
+    animation: jump 0.25s linear;
+}
+
+@keyframes jump{
+    0%{
+        top: 40px;
+    }
+
+    30%{
+        top:  30px;
+    }
+    50%{
+        top: 20px;
+    }
+    80%{
+        top: 30px;
+    }
+    100%{
+        top: 40px;
+    }
+    /** Bu kod esasen yukarı aşağı zıplayan bir nesnenin animasyonunu oluşturur. Yüzdeler, animasyonun ilerlemesini temsil eder ve topözellik, öğenin dikey konumunu değiştirmek için kullanılır.*/
+
+}
+
+
+#cactus{
+width: 100px;
+height: 60px;
+position: relative;
+top:70px ;
+left: 260px;
+background-image: url(cactus.png);
+background-size: 90px 90px;
+
+animation: engel 1s infinite linear;
+
+
+}
+
+@keyframes engel {
+    
+    0%{
+        left: 950px;
+    }
+    100%{
+        left: -40px;
+    } 
+    
+}
+
+
+
+

@@ -1,0 +1,11 @@
+Fetch API is an interface for making AJAX calls in JS.
+Fetch is build a browser API that makes it easier to make AJAX requests using promises.
+
+
+Fetch and Ajax are different types that making network requests.
+Fetch is modern and moore powerful and flexible way to hande HTTP requests.
+
+KULLANIMI:
+Fetch(file)
+.then(x => x.test())
+.then(y => myDisplay(y))
